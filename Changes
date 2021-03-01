@@ -1,6 +1,13 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+    No new features.
+
+    Bugs fixed:
+
+    - methods had the package name prepended, since this information is
+    already in the `package` key it's redundant and less helpful for
+    our common scenarios
 
 0.001     2021-02-16 08:50:47+08:00 Asia/Kuala_Lumpur
     Initial release.
